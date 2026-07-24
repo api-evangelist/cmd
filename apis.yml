@@ -1,24 +1,66 @@
 aid: cmd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cmd.png
 name: Cmd *
-description: 'Cmd * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Cmd was a Vancouver, Canada-based cybersecurity startup founded in 2016 that built
+  runtime security and observability purpose-built for Linux infrastructure, giving security and
+  DevOps teams real-time visibility and policy-based control over user activity across cloud
+  workloads. Backed by GV (Google Ventures), which led its $15M Series B in 2019, Cmd raised roughly
+  $21.6M total before being acquired by Elastic in August 2021, where its technology was folded into
+  the Elastic Security cloud workload protection and Limitless XDR offering. Co-founders Jake King
+  (CSO) and Santosh Krishan joined Elastic through the acquisition. Cmd no longer operates as an
+  independent company and publishes no live API, developer portal, or public API surface; this
+  profile is retained as an acquired-company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/cmd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: elastic
+x-acquired-date: '2021-08-25'
+x-defunct: true
 x-backed-by:
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-live-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Security
+- Cybersecurity
+- Linux
+- Cloud Security
+- Runtime Security
+- DevOps
+- Observability
+- Acquired
 apis: []
+common:
+- type: Acquisition
+  name: Elastic and Cmd Join Forces (acquisition announcement)
+  url: https://www.elastic.co/about/press/elastic-and-cmd-join-forces-to-help-customers-take-command-of-their-cloud-workloads
+- type: LinkedIn
+  name: Cmd (acquired by Elastic) on LinkedIn
+  url: https://ca.linkedin.com/company/cmdsecurity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
