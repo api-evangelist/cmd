@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cmd * is a company surfaced as a portfolio company of gv and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: gv
+Cmd was a Vancouver, Canada-based cybersecurity startup founded in 2016 that built runtime security and observability purpose-built for Linux infrastructure, giving security and DevOps teams real-time visibility and policy-based control over user activity across cloud workloads. Backed by GV (Google Ventures), which led its $15M Series B in 2019, Cmd raised roughly $21.6M total before being acquired by Elastic in August 2021, where its technology was folded into the Elastic Security cloud workload protection and Limitless XDR offering. Co-founders Jake King (CSO) and Santosh Krishan joined Elastic through the acquisition. Cmd no longer operates as an independent company and publishes no live API, developer portal, or public API surface; this profile is retained as an acquired-company record in the API Evangelist network.
+
+**Areas:** Company · Enterprise · Security · Cybersecurity · Linux · Cloud Security · Runtime Security · DevOps · Observability · Acquired
+
+## Cmd * on APIs.io (historical record)
+
+Everything profiled for Cmd * is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cmd/](https://apis.io/providers/cmd/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cmd *: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cmd/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
